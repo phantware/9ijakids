@@ -85,3 +85,19 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .leftFooter {
+    display: none;
+  }
+  .rightFooter {
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  .rightFooter1,
+  .rightFooter2,
+  .rightFooter3 {
+    margin: 0;
+    padding: 0;
+  }
+}
