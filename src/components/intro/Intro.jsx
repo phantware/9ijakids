@@ -17,8 +17,8 @@ const Intro = () => {
         </div>
         <div className='intro-Top-Right'>
           <img
-            src='assets/images/Top Banner.png'
-            alt=''
+            src='/assets/images/Top-Banner.png'
+            alt='topbanner'
             className='center-img'
           />
         </div>
