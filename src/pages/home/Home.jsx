@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../../components/Card'
 import Footer from '../../components/footer/Footer'
 import Intro from '../../components/intro/Intro'
 import Navbar from '../../components/navbar/Navbar'
@@ -13,6 +14,7 @@ const Home = () => {
       <Topbar />
       <Navbar />
       <Intro />
+      <Card />
       <NewsLetter />
       <Footer />
     </div>
