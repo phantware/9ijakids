@@ -21,20 +21,33 @@ const GameState = (props) => {
   }
 
   const searchGame = (data) => {
-    const {games} = state
-    const result = games.filter(item => item.Topic.includes(data) || item.Subject.includes(data) || item.Level.includes(data)  )
-    dispatch({ 
-      type: "SEARCH_RESULT",
-      payload: result
+    const { games } = state
+    const result = games.filter(
+      (item) =>
+        item.Topic.includes(data) ||
+        item.Subject.includes(data) ||
+        item.Level.includes(data)
+    )
+    dispatch({
+      type: 'SEARCH_RESULT',
+      payload: result,
     })
   }
 
   const clear = () => {
-    dispatch({ type: "STATE_CLEAR"})
+    dispatch({ type: 'STATE_CLEAR' })
   }
 
   return (
-    <GameContext.Provider value={{ games: state.games, search: state.search, getGames, searchGame, clear }}>
+    <GameContext.Provider
+      value={{
+        games: state.games,
+        search: state.search,
+        getGames,
+        searchGame,
+        clear,
+      }}
+    >
       {props.children}
     </GameContext.Provider>
   )

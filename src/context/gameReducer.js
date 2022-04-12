@@ -8,11 +8,13 @@ export default (state, action) => {
       }
     case 'SEARCH_RESULT':
       return {
-        ...state, search: action.payload
+        ...state,
+        search: action.payload,
       }
     case 'STATE_CLEAR':
       return {
-        ...state, search: []
+        ...state,
+        search: [],
       }
     default:
       return state
