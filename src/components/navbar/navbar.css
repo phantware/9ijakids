@@ -75,11 +75,9 @@
   background-color: white;
 }
 
-
 .register_auth_nav {
   border: none;
   cursor: pointer;
-
 }
 
 .search_hide {
@@ -97,8 +95,8 @@
 
 input {
   border: none;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px 5px;
   font-size: 18px;
-  outline: none
+  outline: none;
 }
