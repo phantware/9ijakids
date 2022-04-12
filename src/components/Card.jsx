@@ -1,24 +1,15 @@
 import React from 'react'
 
 const Card = ({ game }) => {
-  const {
-    GameDescription,
-    GameImage,
-    GameTitle,
-    Group,
-    Level,
-    Subject,
-    Topic,
-  } = game
+  const { GameImage, GameTitle } = game
+  console.log('game', game)
   return (
-    game && (
-      <div className='card-container'>
-        <div className='card-wrapper'>
-          <img src={GameImage} alt='game image' className='cardImg' />
-          <h3 className='title'>{GameTitle}</h3>
-        </div>
+    <div className='card-container'>
+      <div className='card-wrapper'>
+        <img src={GameImage} alt='game image' className='cardImg' />
+        <h3 className='title'>{GameTitle}</h3>
       </div>
-    )
+    </div>
   )
 }
 

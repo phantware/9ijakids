@@ -3,7 +3,7 @@ import GameContext from './gameContext'
 import gameReducer from './gameReducer'
 
 const GameState = (props) => {
-  const initialState = { games: null }
+  const initialState = { games: [] }
   const [state, dispatch] = useReducer(gameReducer, initialState)
 
   const getGames = async () => {

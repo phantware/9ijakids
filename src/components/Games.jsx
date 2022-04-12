@@ -9,12 +9,10 @@ const Games = () => {
     getGames()
     // eslint-disable-next-line
   }, [])
-  return (
-    games &&
-    games.map((game) => {
-      return <Card game={game} />
-    })
-  )
+  console.log('games', games)
+  return games.map((game) => {
+    return <Card game={game} />
+  })
 }
 
 export default Games
