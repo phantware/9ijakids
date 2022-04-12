@@ -23,7 +23,7 @@
   flex: 1;
 }
 
-.rigfhtNewsDiv {
+.rightNewsDiv {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
@@ -68,4 +68,50 @@
   background-color: #ffcc00;
   padding: 10px;
   border: none;
+}
+@media screen and (max-width: 480px) {
+  .newLetterContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftNewContainer {
+    display: none;
+  }
+  .rightNewContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightNewsDiv {
+    display: flex;
+    padding-top: 50px;
+  }
+  .subscribe {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .beInTouch {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .subscribe2 {
+    width: 80%;
+    height: 10%;
+  }
+  .subscribe2Icon {
+    font-size: 15px;
+    padding-right: 5px;
+  }
+  .subscribe2Email {
+    width: 60%;
+    height: 10%;
+    font-size: 15px;
+  }
+  .subscribe3 {
+    width: 30%;
+    height: 10%;
+    font-size: 10px;
+    padding: 5px;
+  }
 }

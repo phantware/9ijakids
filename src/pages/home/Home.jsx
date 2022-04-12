@@ -14,8 +14,8 @@ const Home = () => {
       <Topbar />
       <Navbar />
       <Intro />
-      {/* <Games /> */}
-      {/* <NewsLetter /> */}
+      <Games />
+      <NewsLetter />
       {/* <Footer /> */}
     </div>
   )

@@ -14,7 +14,7 @@ const NewsLetter = () => {
         </div>
       </div>
       <div className='rightNewContainer'>
-        <div className='rigfhtNewsDiv'>
+        <div className='rightNewsDiv'>
           <h4 className='subscribe'>Subscribe now</h4>
           <h2 className='beInTouch'>Be in the know...</h2>
         </div>
