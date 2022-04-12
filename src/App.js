@@ -1,21 +1,14 @@
 import React, { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+import Games from './components/Games'
+import GameState from './context/GameState'
+import Home from './pages/home/Home'
 
 function App() {
-  const [markdown, setMarkdown] = useState('## markdown preview')
   return (
-    <main>
-      <section className='markdown'>
-        <textarea
-          className='input'
-          value={markdown}
-          onChange={(e) => setMarkdown(e.target.value)}
-        ></textarea>
-        <article className='resutl'>
-          <ReactMarkdown>{markdown}</ReactMarkdown>
-        </article>
-      </section>
-    </main>
+    <GameState>
+      <Home />
+      <Games />
+    </GameState>
   )
 }
 

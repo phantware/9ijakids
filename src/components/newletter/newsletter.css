@@ -1,0 +1,71 @@
+.newLetterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.leftNewContainer {
+  flex: 1;
+}
+
+.newLetterImage {
+  width: 100%;
+  height: 100%;
+}
+.newLetterImg {
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+  padding-left: 450px;
+}
+.rightNewContainer {
+  flex: 1;
+}
+
+.rigfhtNewsDiv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.subscribe {
+  font-weight: bold;
+  color: #ffcc00;
+  padding-left: 10px;
+}
+.beInTouch {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.subscribe2 {
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  border: 1px solid rgb(235, 207, 207);
+}
+.subscribe2Icon {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.subscribe2Email {
+  width: 60%;
+  height: 10%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.subscribe2Email::placeholder {
+  color: gray;
+  font-weight: 300;
+}
+.subscribe3 {
+  width: 30%;
+  height: 10%;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #ffcc00;
+  padding: 10px;
+  border: none;
+}

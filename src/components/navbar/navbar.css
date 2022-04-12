@@ -1,0 +1,66 @@
+.nav-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(210, 36%, 96%);
+  margin-top: 30px;
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+.naijakid {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(2, 2, 64);
+}
+.open-book {
+  width: 50px;
+  height: 50px;
+}
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: 200px;
+  padding: 0;
+}
+.nav-li {
+  margin: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(2, 2, 64);
+}
+.nav-li-register {
+  cursor: pointer;
+}
+
+.register-1 {
+  padding-top: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ffcc00;
+  border: none;
+}
+.navbarIcon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.iconBorder {
+  width: 10%;
+  height: 10%;
+  margin: 15px;
+  padding: 10px;
+  background-color: white;
+}
