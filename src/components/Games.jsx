@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import GamesContext from '../context/gameContext'
-import Card from './Card'
+import Card from './card/Card'
 
 const Games = () => {
   const gameContext = useContext(GamesContext)
@@ -14,12 +14,11 @@ const Games = () => {
 
   const renderItem = (game, index) => {
     return <Card game={game} key={index} />
-  } 
+  }
 
-  return search.length > 0 ? 
-    search.map((item, index) => renderItem(item, index)) 
+  return search.length > 0
+    ? search.map((item, index) => renderItem(item, index))
     : games.map((item, index) => renderItem(item, index))
-  
 }
 
 export default Games
