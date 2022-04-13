@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
-import Games from '../../components/Games'
+import Games from '../../components/games/Games'
 import Intro from '../../components/intro/Intro'
 import Navbar from '../../components/navbar/Navbar'
 import NewsLetter from '../../components/newletter/NewsLetter'
