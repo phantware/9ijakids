@@ -108,13 +108,14 @@
   .rightFooter1 {
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 50px;
   }
   .rightFooter2 {
-    padding-bottom: 25px;
+    padding-bottom: 70px;
     padding-left: 20px;
   }
   .rightFooter3 {
-    padding-top: 8px;
+    padding-bottom: 30px;
     padding-left: 20px;
   }
 }
