@@ -19,13 +19,17 @@ const NewsLetter = () => {
           <h2 className='beInTouch'>Be in the know...</h2>
         </div>
         <div className='subscribe2'>
-          <i className='fas fa-envelope subscribe2Icon'></i>
-          <input
-            type='text'
-            placeholder='Enter email address'
-            className='subscribe2Email'
-          />
-          <button className='subscribe3'>subscribe now</button>
+          <div className='subscribe2-input'>
+            <i className='fas fa-envelope subscribe2Icon'></i>
+            <input
+              type='text'
+              placeholder='Enter email address'
+              className='subscribe2Email'
+            />
+          </div>
+          <div className='subscribe2-button'>
+            <button className='subscribe3'>subscribe now</button>
+          </div>
         </div>
       </div>
     </div>

@@ -41,36 +41,50 @@
 }
 
 .subscribe2 {
-  width: 50%;
+  width: 60%;
   height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-left: 50px;
   margin-top: 50px;
   padding: 10px;
   border: 1px solid rgb(235, 207, 207);
+  border-radius: 5px;
+}
+.subscribe2-input {
+  flex: 3;
 }
 .subscribe2Icon {
   font-size: 20px;
   padding-right: 10px;
 }
 .subscribe2Email {
-  width: 60%;
+  width: 85%;
   height: 10%;
   border: none;
   outline: none;
   font-size: 20px;
+  padding-right: 10px;
 }
 .subscribe2Email::placeholder {
   color: gray;
   font-weight: 300;
 }
+.subscribe2-button {
+  flex: 2;
+}
 .subscribe3 {
-  width: 30%;
+  width: 60%;
   height: 10%;
-  font-size: 12px;
+  line-height: 40px;
+  font-size: 15px;
   font-weight: bold;
   background-color: #ffcc00;
-  padding: 10px;
+  border-radius: 5px;
+  float: right;
   border: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 480px) {
   .newLetterContainer {
