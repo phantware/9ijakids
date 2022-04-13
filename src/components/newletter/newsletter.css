@@ -60,7 +60,7 @@
   padding-right: 10px;
 }
 .subscribe2Email {
-  width: 85%;
+  width: 55%;
   height: 10%;
   border: none;
   outline: none;
@@ -75,9 +75,9 @@
   flex: 2;
 }
 .subscribe3 {
-  width: 60%;
+  width: 50%;
   height: 10%;
-  line-height: 40px;
+  line-height: 20px;
   font-size: 15px;
   font-weight: bold;
   background-color: #ffcc00;
