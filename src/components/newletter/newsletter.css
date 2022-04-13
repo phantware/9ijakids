@@ -113,23 +113,34 @@
     font-size: 20px;
     padding: 10px;
   }
+  .subscribe2-input {
+    flex: 1;
+  }
+  .subscribe2-button {
+    flex: 1;
+    width: 10%;
+  }
   .subscribe2 {
     width: 80%;
     height: 10%;
+    margin-left: 10px;
+    /* padding: 0px; */
   }
   .subscribe2Icon {
     font-size: 15px;
     padding-right: 5px;
   }
   .subscribe2Email {
-    width: 60%;
+    width: 80%;
     height: 10%;
     font-size: 15px;
   }
   .subscribe3 {
-    width: 30%;
+    width: 70%;
     height: 10%;
+    line-height: 15px;
     font-size: 10px;
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
+    float: left;
   }
 }
